@@ -1,0 +1,26 @@
+spring:
+  #数据库相关配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_boot_demo04
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+    tomcat:
+      max-active: 20
+      max-idle: 8
+      min-idle: 8
+      initial-size: 10
+    #Jpa相关配置
+  jpa:
+    database: MYSQL
+    show-sql: true
+    
+    hibernate:
+      ddl-auto: update
+    #demo07配置可将下面注解取消
+#server:
+# port: 8888
+#   context-path: /spring-boot-demo
+        
+    
+    

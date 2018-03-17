@@ -15,4 +15,12 @@ public class ModifyController {
 		//return "test01";
 		return "test02";
 	}
+	
+	/**
+	 * 尝试在启动应用后开启此方法查看响应结果
+	 */
+	/*@RequestMapping("/newMethod")
+	public String getNewMethodResult() {
+		return "response body !";
+	}*/
 }
