@@ -8,6 +8,7 @@
 		http://blog.csdn.net/weixin_38626484/article/details/78658384
 	demo05 -> SpringBoot JbdbcTemplate
 	demo06 -> 全局异常处理
+	demo07 -> Server信息配置
 	
 	
 
