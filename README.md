@@ -9,6 +9,8 @@
 	demo05 -> SpringBoot JbdbcTemplate
 	demo06 -> 全局异常处理
 	demo07 -> Server信息配置
+	demo08 -> SpringBoot 对thymeleaf 的依赖
+	
 	
 	
 

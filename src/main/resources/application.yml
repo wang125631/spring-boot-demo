@@ -21,6 +21,19 @@ spring:
 #server:
 # port: 8888
 #   context-path: /spring-boot-demo
-        
+    
+  #demo08 thymeleaf 相关配置    使用取消下面注解
+#  thymeleaf:
+#    cache: false
+#    prefix: /
+#    suffix: .html
+#    mode: HTML5
+#    encoding: UTF-8
+#    servlet:
+#      content-type: text/html
+
+#freemarker 相关配置
+  freemarker:
+    cache: false
     
     
