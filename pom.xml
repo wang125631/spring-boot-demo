@@ -67,7 +67,7 @@
 				    <artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 		<!-- 对thymeleaf依赖 -->
-		 <dependency>
+	  <dependency>
 		 	<groupId>org.springframework.boot</groupId>
 		 	<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		 </dependency>
@@ -76,6 +76,50 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-freemarker</artifactId>
 		</dependency>
+		<!-- Jsp相关 -->
+			<!-- servlet 依赖. -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+			<!-- jstl -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+		</dependency>
+			<!-- tomcat 的支持.-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-tomcat</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	<!-- MyBatis 相关 -->
+	<dependency>
+	    <groupId>org.mybatis.spring.boot</groupId>
+	    <artifactId>mybatis-spring-boot-starter</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
+	    <dependency>
+	    <groupId>com.github.pagehelper</groupId>
+	    <artifactId>pagehelper</artifactId>
+	    <version>4.1.0</version>
+	</dependency>
+		
+	<!-- redis相关 -->
+	 <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-redis</artifactId>
+           <version>1.4.5.RELEASE</version>
+      </dependency>
+			
+		
+		
 	</dependencies>
 
 	<!-- 构建节点. -->

@@ -1,6 +1,6 @@
 
 /**
- * SpringBoot 使用freeMarker引擎
+ *
  * 
  * @author wangpx    
  */
