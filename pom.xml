@@ -117,8 +117,11 @@
            <artifactId>spring-boot-starter-redis</artifactId>
            <version>1.4.5.RELEASE</version>
       </dependency>
-			
-		
+	<!--  ActiveMq 相关-->
+	<dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-activemq</artifactId>
+	</dependency>
 		
 	</dependencies>
 

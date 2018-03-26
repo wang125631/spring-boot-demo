@@ -47,3 +47,8 @@ spring:
   redis:
     host: 119.29.111.78
     port: 6379
+  activemq:
+    in-memory: false
+    broker-url: tcp://119.29.111.78:61616
+    pool:
+      enabled: true
