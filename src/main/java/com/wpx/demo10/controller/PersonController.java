@@ -7,6 +7,7 @@ import javax.annotation.Resource;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.wpx.demo10.service.PersonService;
 import com.wpx.demo10.vo.Person;
@@ -18,10 +19,18 @@ public class PersonController {
 	@Resource
 	private PersonService personService;
 	
+	
+	
 	@RequestMapping("/findPersonById")
 	public void findPersonById() {
 		Person person = personService.findPersonById(2);
+		Page<Object> startPage = PageHelper.startPage(1, 3);
+		
 		System.out.println(person);
+		System.out.println(startPage.getPages());
+		System.out.println(startPage.getPageSize());
+		System.out.println(startPage.getStartRow());
+		System.out.println(startPage.getEndRow());
 	}
 	/**
 	 * http://127.0.0.1:8080/demo10/save?name=wangpx&&age=22

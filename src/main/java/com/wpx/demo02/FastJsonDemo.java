@@ -3,7 +3,6 @@ package com.wpx.demo02;
 import java.util.Date;
 
 import com.alibaba.fastjson.annotation.JSONField;
-
 public class FastJsonDemo {
 
 	private int id;
